@@ -1,0 +1,58 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(233, 233, 191);
+}
+
+
+.recipe-image {
+    height: auto;
+    width: 400px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#tj-bear {
+    height: auto;
+    width: 400px;
+    border-radius: 50%; 
+    border: 5px solid black;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* It's funny
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+*/
+
+
+.inverted {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    color: peru;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer {
+    background: red;
+    color: black;
+    font-size: 10px;
+}
